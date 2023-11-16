@@ -22,6 +22,17 @@ Although this test appears like a bare minimum, [less than half](https://psycnet
 
 ## Methods
 ### Part 1 : Data clean up and pre-processing
+**Step 1** Merging the datasets
+
 ### Part 2 : General analysis 
+**Step X** Time
+**Step X** Revenue and budget
+**Step X** Country
 ### Part 3 : Critical study of the Bechdel test
+**Step X** Age of charcters vs. age of actresses
+**Step X** Age of actresses
+**Step X** Presence of misogynistic tropes
+**Step X** Quantity of actresses
 ### Part 4 : Prediction and determination of confounding factors
+**Step X** Analysis of the initial bias of the Bechdel dataset
+**Step X** Feature based prediction
