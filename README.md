@@ -16,4 +16,6 @@ Although this test appears like a bare minimum, [less than half](https://psycnet
 - What is the relationship between actress age, character age, and the test ?
 - Can we accurately predict the result of the test based only on information contained in the MCU Movie Corpus ?
 
-
+## Additional Datasets
+- Bechdel Test results : dataset containing a pass/fail marker for 1795 films, as well as budget information.$
+- CPI per country : dataset giving inflation information for a range of countries. It is important to adjust box office revenue for inflation, especially considering that certain movies studied were produced over 100 years ago when money had a very different value. 
