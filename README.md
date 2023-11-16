@@ -57,3 +57,7 @@ To do so, we determine a dependent variable for the CMU corpus which takes value
 **Step X** Feature based prediction
 
 In this final part, we are going to use a supervised classification method based on the film features to predict whether a film passes the Bechdel test or not. We will construct a classification tree.
+
+## Proposed timeline
+
+## Organisation within the team
