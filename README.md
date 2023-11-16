@@ -36,7 +36,7 @@ Check necessary assumptions for subsequent statistical tests
 **Step X** Country
 
 ### Part 3 : Critical study of the Bechdel test
-**Step X** Age of charcters vs. age of actresses
+**Step X** Age of characters vs. age of actresses
 
 **Step X** Age of actresses
 
