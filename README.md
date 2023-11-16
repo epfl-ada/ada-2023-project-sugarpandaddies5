@@ -17,7 +17,7 @@ Although this test appears like a bare minimum, [less than half](https://psycnet
 - Can we accurately predict the result of the test based only on information contained in the MCU Movie Corpus ?
 
 ## Additional Datasets
-- Bechdel Test results : dataset containing a pass/fail marker for 1795 films, as well as budget information.
+- Bechdel Test results : dataset containing a pass/fail marker for about 10000 films.
 - CPI per country : dataset giving inflation information for a range of countries. It is important to adjust box office revenue for inflation, especially considering that certain movies studied were produced over 100 years ago when money had a very different value.
 
 ## Methods
@@ -42,5 +42,8 @@ Although this test appears like a bare minimum, [less than half](https://psycnet
 
 ### Part 4 : Prediction and determination of confounding factors
 **Step X** Analysis of the initial bias of the Bechdel dataset
+
+The dataset we refer to is constructed through contributions at [bechdeltest.com/](https://bechdeltest.com/). Anyone can freely fill out a movie form indicating whether a movie has passed or failed the test along with specific information on the criteria met or missed. Users can also leave comments on movie pages if they disagree with the result assigned to a movie. We want to determine whether this database is truly a random collection of movies, or if there is some inherent bias of choice which would represent a confounding element for our analyses.
+
 
 **Step X** Feature based prediction
