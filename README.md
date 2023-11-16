@@ -17,5 +17,11 @@ Although this test appears like a bare minimum, [less than half](https://psycnet
 - Can we accurately predict the result of the test based only on information contained in the MCU Movie Corpus ?
 
 ## Additional Datasets
-- Bechdel Test results : dataset containing a pass/fail marker for 1795 films, as well as budget information.$
-- CPI per country : dataset giving inflation information for a range of countries. It is important to adjust box office revenue for inflation, especially considering that certain movies studied were produced over 100 years ago when money had a very different value. 
+- Bechdel Test results : dataset containing a pass/fail marker for 1795 films, as well as budget information.
+- CPI per country : dataset giving inflation information for a range of countries. It is important to adjust box office revenue for inflation, especially considering that certain movies studied were produced over 100 years ago when money had a very different value.
+
+## Methods
+### Part 1 : Data clean up and pre-processing
+### Part 2 : General analysis 
+### Part 3 : Critical study of the Bechdel test
+### Part 4 : Prediction and determination of confounding factors
