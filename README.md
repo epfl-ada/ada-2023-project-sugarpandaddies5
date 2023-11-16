@@ -60,8 +60,11 @@ In this final part, we are going to use a supervised classification method based
 
 ## Proposed timeline
 
-* Milestone 2 sumbission
-* 
-* Milestone 3 submission
+* 17-11-23 Milestone 2 submission
+* 24-11-23 
+* 01-12-23 
+* 08-12-23 
+* 15-12-23 
+* 22-12-23 Milestone 3 submission
 
 ## Organisation within the team
