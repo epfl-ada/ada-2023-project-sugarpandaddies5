@@ -19,7 +19,7 @@ Although this test appears like a bare minimum, [less than half](https://psycnet
 ## Additional Datasets
 - Bechdel Test results : dataset containing a pass/fail marker for about 10000 films.
 - CPI per country : dataset giving inflation information for a range of countries. It is important to adjust box office revenue for inflation, especially considering that certain movies studied were produced over 100 years ago when money had a very different value.
-- [Directors Gender]() : dataset of 5056 directors with their gender (male or female)
+- Directors Gender : dataset of 5056 directors with their gender (male or female)
 
 ## Methods
 ### Part 1 : Data clean up and pre-processing
@@ -28,7 +28,8 @@ The two main datasets that are used are the CMU Movie Metadata (81,741 movies), 
 
 **Step 2** Assumptions
 The 
-Check necessary assumptions for subsequent statistical tests
+Check necessary assumptions for subsequent statistical tests : As we intend to use statistical tests and perform logistic regressions, several hypotheses need to be established. This will be done in Milestone 3.
+
 
 ### Part 2 : General analysis 
 **Step X** Time
