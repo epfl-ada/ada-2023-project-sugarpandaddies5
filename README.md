@@ -56,7 +56,7 @@ Secondly, we look at the ratio distribution across different ratings values, tha
 To do so, we determine a dependent variable for the CMU corpus which takes value 1 if the corresponding movie appears in the Bechdel database and 0 if not. Then, we perform a logistic regression of this variable on several factors: country, box office revenue, genre, result of the Bechdel test, release year, female presence, as well as crossfactors. Then, we execute a chi-squared test to determine dependence of the binary dependent variable. We complement with post hoc tests depending on the outcome.
 
 
-**Step 4.2 Feature based prediction** : In this final part, we are going to use a supervised classification method based on the film features to predict whether a film passes the Bechdel test or not. We will construct a classification tree.
+**Step 4.2 Feature based prediction** : In this final part, we are going to use a supervised classification method based on the film features to predict whether a film passes the Bechdel test or not. We will construct a classification tree. We of course will divide our dataset into two or more sets for testing training and validation.
 
 ## Proposed timeline
 
