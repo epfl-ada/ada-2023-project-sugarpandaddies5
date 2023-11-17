@@ -32,6 +32,7 @@ Although this test appears like a bare minimum, [less than half](https://psycnet
 **Step 2.1 Time** The first vizualitions are time series: amount of movies across the years, Bechdel rate evolution, Proportion of Bechdel passing movies evolution
 
 **Step 2.2 Revenue and budget**
+We visualized the percentage of films passing the Bechdel test as a function of revenue. Using a Spearman correlation test we find a statistically significant negative correlation. In the future we aim to correct for inflation on top of this.
 
 **Step 2.3 Country and Genre** : We found the ten most represented countries in the merged dataset, in order to have large enough samples. Then, we first look the proportion of passing Bechdel movies for each of the ten countries. The Movie genres are investigated with the same method: for each of the ten major genres, we compute the propotion of each Bechdel rate. 
 
