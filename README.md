@@ -24,7 +24,7 @@ Although this test appears like a bare minimum, [less than half](https://psycnet
 ## Methods
 ### Part 1 : Data clean up and pre-processing
 **Step 1** Merging the datasets
-
+The two main datasets that are used are the CMU Movie Metadata (81,741 movies), and the downloaded Bechdel results (10136 movies) (from the page https://bechdeltest.com). Merging these two tables on a relevant and unique identifier is a challenge, since they don't have the same identifiers: on one hand CMU Movies has the Wikipedia page ID, on the other hand, Bechdel table has the Imdb page IDs. To adress this, we will request Wikipedia Page IDs of movies in the Bechdel Table, by giving the title and year of the movie. The merge will then be performed on Wikipedia Page IDs.
 **Step X** Assumptions
 
 Check necessary assumptions for subsequent statistical tests
