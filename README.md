@@ -68,18 +68,18 @@ In this final part, we are going to use a supervised classification method based
 ## Proposed timeline
 
 * 17-11-23 Milestone 2 submission
-* 24-11-23 
-* 01-12-23 
-* 08-12-23 
-* 15-12-23 
+* 24-11-23 Perform statistical tests between the distribution of passing and failing tests for: revenue, age ratio, number of female characters
+* 01-12-23 Study qualitative features: genre, country, Production Company to assess if these may be relevant features for regression
+* 08-12-23 Logistic regression Pass/Fail with features: director gender, quantity of actresses, genre
+* 15-12-23 Machine Learning
 * 22-12-23 Milestone 3 submission
 
 ## Organisation within the team
 | Contributor | Task for Milestone 2                        | Task for Milestone 3|
 |-------------|---------------------------------------------|---------------------|
 | **Juliette** | - Data processing, merging Bechdel and CMU  |-Impact of genre and Production Company|
-|             | - Initial data analysis and plots            |-Movies not in the Bechdel dataset and in the CMU      |
-|             | - Overview of notebook                       |        |
+|             | - Initial data analysis and plots            |-Box Office revenues
+|             | - Overview of notebook                       |     |
 | **Zoé**      | - Step X: Analysis of the initial bias of the Bechdel dataset |    |
 |             | - Step X: Presence of misogynistic tropes   |        |
 |             | - Overview of README                          |      |
