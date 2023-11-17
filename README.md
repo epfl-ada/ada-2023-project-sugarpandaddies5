@@ -81,6 +81,7 @@ To do so, we determine a dependent variable for the CMU corpus which takes value
 |             | -  Step 3.4 Presence of misogynistic tropes    |          |
 | **Thibault** |-Machine Learning (Milestone 3)                |                  Feature-based prediction   |    
 |              |                                              |   Website development
+|              | -  Step 4.2 Feature-based prediction   |    |  
 
 
 #Question to the TA
