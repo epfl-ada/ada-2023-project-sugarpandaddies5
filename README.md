@@ -75,20 +75,20 @@ In this final part, we are going to use a supervised classification method based
 * 22-12-23 Milestone 3 submission
 
 ## Organisation within the team
-| Contributor | Task                                        |
-|-------------|---------------------------------------------|
-| **Juliette** | - Initial data analysis and plots           |
-|             | - Statistical analysis                      |
-|             | - Overview of notebook                       |
-| **Zoé**      | - Step X: Analysis of the initial bias of the Bechdel dataset |
-|             | - Step X: Presence of misogynistic tropes   |
-|             | - Overview of README                          |
-| **Anabelle** | - Step X: Quantity of actresses             |
-|             | - Step X: Director gender                    |
-|             | - Overview of README                          |
-| **Nicola**   | - Step X: Age of actresses                   |
-|             | - Step X: Feature-based prediction           |
-| **Thibault** |                                             |
+| Contributor | Task for Milestone 2                        | Task for Milestone 3|
+|-------------|---------------------------------------------|---------------------|
+| **Juliette** | - Data processing, merging Bechdel and CMU  |-Impact of genre and Production Company|
+|             | - Initial data analysis and plots            |-Movies not in the Bechdel dataset and in the CMU      |
+|             | - Overview of notebook                       |        |
+| **Zoé**      | - Step X: Analysis of the initial bias of the Bechdel dataset |    |
+|             | - Step X: Presence of misogynistic tropes   |        |
+|             | - Overview of README                          |      |
+| **Anabelle** | - Step X: Quantity of actresses             |        |
+|             | - Step X: Director gender                    |        |
+|             | - Overview of README                          |        |
+| **Nicola**   | - Step X: Age of actresses                   |        |
+|             | - Step X: Feature-based prediction           |          |
+| **Thibault** |-Machine Learning (Milestone 3)                                           |-Machine Learning (Part 4)|
 
 
 #Question to the TA
