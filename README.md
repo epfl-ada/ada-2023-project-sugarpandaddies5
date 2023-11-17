@@ -50,6 +50,8 @@ We take inspiration from Bamman O'Connor and Smith's study on [Learning Latent P
 
 **Step X** Quantity of actresses
 
+The purpose of this step is to see whether films pass the Bechdel test because they have more actresses or, on the contrary, if the number of actresses is limited but their characters are developed. By "developed," we mean that we know their names, and they engage in conversations on topics other than men. To achieve this, we need to examine the number of actresses and actors per film as well as their ratio.
+
 ### Part 4 : Prediction and determination of confounding factors
 **Step X** Analysis of the initial bias of the Bechdel dataset
 
