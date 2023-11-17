@@ -69,7 +69,7 @@ To do so, we determine a dependent variable for the CMU corpus which takes value
 | **Juliette** | - Data processing, merging Bechdel and CMU  |Impact of genre and Production Company|
 |             | - Initial data analysis and plots            |Box Office revenues
 |             | - Overview of notebook                       |     |
-| **Zoé**     | - Step 3.4 Presence of misogynistic tropes   |    Step 4.1: Analysis of the initial bias of the Bechdel dataset     |
+| **Zoë**     | - Step 3.4 Presence of misogynistic tropes   |    Step 4.1: Analysis of the initial bias of the Bechdel dataset     |
 |             | - Overview of README                          |     Website development |
 | **Anabelle** | - Step 3.1 Quantity of actresses             |    Statistical analysis    |
 |             | - Step 3.2 Director gender                    |        |
