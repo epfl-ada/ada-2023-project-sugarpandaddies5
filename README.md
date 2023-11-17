@@ -32,11 +32,11 @@ Check necessary assumptions for subsequent statistical tests : As we intend to u
 
 
 ### Part 2 : General analysis 
-**Step X** Time
+**Step 1** Time
 
-**Step X** Revenue and budget
+**Step 2** Revenue and budget
 
-**Step X** Country
+**Step 3** Country
 
 ### Part 3 : Critical study of the Bechdel test
 
