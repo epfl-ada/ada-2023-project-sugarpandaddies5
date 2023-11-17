@@ -13,7 +13,7 @@ Although this test appears like a bare minimum, [less than half](https://psycnet
 - How has the proportion of films that pass the Bechdel test changed over time ?
 - What is the impact of the quantity of female characters on the result of the test ?
 - Can films that uphold misogynistic character tropes still pass the test ?
-- What is the relationship between actress age, character age, and the test ?
+- What is the impact of woman director ?
 - Can we accurately predict the result of the test based only on information contained in the MCU Movie Corpus ?
 
 ## Additional Datasets
