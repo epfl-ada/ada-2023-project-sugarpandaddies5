@@ -66,17 +66,18 @@ To do so, we determine a dependent variable for the CMU corpus which takes value
 ## Organisation within the team
 | Contributor | Task for Milestone 2                        | Task for Milestone 3|
 |-------------|---------------------------------------------|---------------------|
-| **Juliette** | - Data processing, merging Bechdel and CMU  |-Impact of genre and Production Company|
-|             | - Initial data analysis and plots            |-Box Office revenues
+| **Juliette** | - Data processing, merging Bechdel and CMU  |Impact of genre and Production Company|
+|             | - Initial data analysis and plots            |Box Office revenues
 |             | - Overview of notebook                       |     |
-| **Zoé**     | - Step 3.4 Presence of misogynistic tropes   |    - Step X: Analysis of the initial bias of the Bechdel dataset     |
-|             | - Overview of README                          |      |
-| **Anabelle** | - Step 3.1 Quantity of actresses             |        |
+| **Zoé**     | - Step 3.4 Presence of misogynistic tropes   |    Step 4.1: Analysis of the initial bias of the Bechdel dataset     |
+|             | - Overview of README                          |     Website development |
+| **Anabelle** | - Step 3.1 Quantity of actresses             |    Statistical analysis    |
 |             | - Step 3.2 Director gender                    |        |
 |             | - Overview of README                          |        |
-| **Nicola**   | - Step 3.3 Age of actresses                   |        |
+| **Nicola**   | - Step 3.3 Age of actresses                   |     Statistical analysis   |
 |             | -  Step 4.2: Feature-based prediction          |          |
-| **Thibault** |-Machine Learning (Milestone 3)                                       Step 4.2: Feature-based prediction
+| **Thibault** |-Machine Learning (Milestone 3)                |                  Feature-based prediction   |    
+|              |                                              |   Website development
 
 
 #Question to the TA
