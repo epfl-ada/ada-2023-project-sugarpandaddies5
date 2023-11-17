@@ -33,10 +33,12 @@ Check necessary assumptions for subsequent statistical tests : As we intend to u
 
 ### Part 2 : General analysis 
 **Step 1** Time
+The first vizualitions are time series: amount of movies across the years, Bechdel rate evolution, Proportion of Bechdel passing movies evolution
 
 **Step 2** Revenue and budget
 
-**Step 3** Country
+**Step 3** Country and Genre
+We found the ten most represented countries in the merged dataset, in order to have large enough samples. Then, we first look the proportion of passing Bechdel movies for each of the ten countries. The Movie genres are investigated with the same method: for each of the ten major genres, we compute the propotion of each Bechdel rate. 
 
 ### Part 3 : Critical study of the Bechdel test
 
