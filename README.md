@@ -42,7 +42,7 @@ We visualized the percentage of films passing the Bechdel test as a function of 
 
 **Step 3.2 Director gender** : while women have been an integral part of the film industry since the beginning, the opportunity to direct was rarely given to them. A director's job description involves participation in nearly every phase of a project. Because their vision largely impacts the final product, it can be interesting to assess the impact of the presence of female directors. For this, we need to add a new dataset that provides the genders of film directors for each movie, we do not have the Wikipeida ID or IMDb ID for a movie, therefore we will merge this new dataset with the old one based on the title of a movie and the year it was released. We can then explore the proportion of films directed by women that pass the Bechdel test compared to films with male directos. 
 
-**Step 3.3 Age ratio between actors and actresses**
+**Step 3.3 Age ratio between actresses and actors**
 A question of interest might be whether the average age of actresses in a given movie is lower or higher than that of actors. Therfeore, we compute the average actress age and average actor age for each movie where all age values are available. Then, we compute the ratio of the two. A ratio value below one indicated that the average actress age is below that of actors.
 Secondly, we look at the ratio distribution across different ratings values, that is whether a movie passes the Bechdel test (rating = 3) or not (ratings = 0,1,2).
 
@@ -77,7 +77,7 @@ To do so, we determine a dependent variable for the CMU corpus which takes value
 | **Anabelle** | - Step 3.1 Quantity of actresses             |    Statistical analysis    |
 |             | - Step 3.2 Director gender                    |        |
 |             | - Overview of README                          |        |
-| **Nicola**   | - Step 3.3 Age of actresses                   |     Statistical analysis   |
+| **Nicola**   | - Step 3.3 Age ratio between actresses and actors                |     Statistical analysis   |
 |             | -  Step 4.2: Feature-based prediction          |          |
 | **Thibault** |-Machine Learning (Milestone 3)                |                  Feature-based prediction   |    
 |              |                                              |   Website development
