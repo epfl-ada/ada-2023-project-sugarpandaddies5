@@ -19,7 +19,7 @@ Although this test appears like a bare minimum, [less than half](https://psycnet
 ## Additional Datasets
 - Bechdel Test results : dataset containing a pass/fail marker for about 10000 films.
 - CPI per country : dataset giving inflation information for a range of countries. It is important to adjust box office revenue for inflation, especially considering that certain movies studied were produced over 100 years ago when money had a very different value.
-- Directors Gender : dataset of 5056 directors with their gender (male or female)
+- [Directors Gender]() : dataset of 5056 directors with their gender (male or female)
 
 ## Methods
 ### Part 1 : Data clean up and pre-processing
@@ -37,9 +37,12 @@ Check necessary assumptions for subsequent statistical tests
 **Step X** Country
 
 ### Part 3 : Critical study of the Bechdel test
-**Step X** Age of characters vs. age of actresses
 
 **Step X** Age of actresses
+
+**Step X** Director gender
+
+While women have been an integral part of the film industry since the beginning, the opportunity to direct was rarely given to them. A director's job description involves participation in nearly every phase of a project. Because their vision largely impacts the final product, it can be interesting to assess the impact of the presence of female directors. For this, we need to add a new dataset that provides the genders of film directors for each movie, we do not have the Wikipeida ID or IMDb ID for a movie, therefore we will merge this new dataset with the old one based on the title of a movie and the year it was released. We can then explore the proportion of films directed by women that pass the Bechdel test compared to films with male directos. 
 
 **Step X** Presence of misogynistic tropes
 
@@ -69,3 +72,22 @@ In this final part, we are going to use a supervised classification method based
 * 22-12-23 Milestone 3 submission
 
 ## Organisation within the team
+| Contributor | Task                                        |
+|-------------|---------------------------------------------|
+| **Juliette** | - Initial data analysis and plots           |
+|             | - Statistical analysis                      |
+|             | - Overview of notebook                       |
+| **Zoé**      | - Step X: Analysis of the initial bias of the Bechdel dataset |
+|             | - Step X: Presence of misogynistic tropes   |
+|             | - Overview of README                          |
+| **Anabelle** | - Step X: Quantity of actresses             |
+|             | - Step X: Director gender                    |
+|             | - Overview of README                          |
+| **Nicola**   | - Step X: Age of actresses                   |
+|             | - Step X: Feature-based prediction           |
+| **Thibault** |                                             |
+
+
+#Question to the TA
+
+**Step X** Age of characters vs. age of actresses
