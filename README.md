@@ -61,7 +61,7 @@ To do so, we determine a dependent variable for the CMU corpus which takes value
 
 * 17-11-23 Milestone 2 submission
 * 24-11-23 Perform statistical tests between the distribution of passing and failing tests for: revenue, age ratio, number of female characters
-* 01-12-23 Study qualitative features: genre, country, Production Company to assess if these may be relevant features for regression
+* 01-12-23 Feature selection
 * 08-12-23 Logistic regression Pass/Fail with features: director gender, quantity of actresses, genre
 * 15-12-23 Machine Learning
 * 22-12-23 Milestone 3 submission
