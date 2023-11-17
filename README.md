@@ -23,48 +23,49 @@ Although this test appears like a bare minimum, [less than half](https://psycnet
 
 ## Methods
 ### Part 1 : Data clean up and pre-processing
-**Step 1** Merging the datasets
+**Step 1.1** Merging the datasets
 The two main datasets that are used are the CMU Movie Metadata (81,741 movies), and the downloaded Bechdel results (10136 movies) (from the page https://bechdeltest.com). Merging these two tables on a relevant and unique identifier is a challenge, since they don't have the same identifiers: on one hand CMU Movies has the Wikipedia page ID, on the other hand, Bechdel table has the Imdb page IDs. To adress this, we will request Wikipedia Page IDs of movies in the Bechdel Table, by giving the title and year of the movie. The merge will then be performed on Wikipedia Page IDs.
 
-**Step 2** Assumptions
+**Step 1.2** Assumptions
 The 
 Check necessary assumptions for subsequent statistical tests : As we intend to use statistical tests and perform logistic regressions, several hypotheses need to be established. This will be done in Milestone 3.
 
 
 ### Part 2 : General analysis 
-**Step 1 Time**
+**Step 2.1 Time**
 The first vizualitions are time series: amount of movies across the years, Bechdel rate evolution, Proportion of Bechdel passing movies evolution
 
-**Step 2 Revenue and budget**
+**Step 2.2 Revenue and budget**
 
-**Step 3 Country and Genre**
+**Step 2.3 Country and Genre**
 We found the ten most represented countries in the merged dataset, in order to have large enough samples. Then, we first look the proportion of passing Bechdel movies for each of the ten countries. The Movie genres are investigated with the same method: for each of the ten major genres, we compute the propotion of each Bechdel rate. 
 
 ### Part 3 : Critical study of the Bechdel test
 
-**Step X Age of actresses**
-
-**Step X Director gender**
-
-While women have been an integral part of the film industry since the beginning, the opportunity to direct was rarely given to them. A director's job description involves participation in nearly every phase of a project. Because their vision largely impacts the final product, it can be interesting to assess the impact of the presence of female directors. For this, we need to add a new dataset that provides the genders of film directors for each movie, we do not have the Wikipeida ID or IMDb ID for a movie, therefore we will merge this new dataset with the old one based on the title of a movie and the year it was released. We can then explore the proportion of films directed by women that pass the Bechdel test compared to films with male directos. 
-
-**Step X Presence of misogynistic tropes**
-
-We take inspiration from Bamman O'Connor and Smith's study on [Learning Latent Personas of Film Characters](https://www.cs.cmu.edu/~dbamman/pubs/pdf/bamman+oconnor+smith.acl13.pdf), in which they aim to predict character tropes using movie summary data. What is of interest to us is the classification into specific tropes, instead of the work of grouping characters into personas. For this, we focus on their manually collected test dataset of induced personas, based on information from [tvtropes.com](https://tvtropes.org/pmwiki/pmwiki.php/Main/Tropes) which classifies 501 characters from different movies into 72 distinct tropes such as "young gun" or "absent minded professor". To answer the question of whether films perpetrating misogynistic tropes can be just as likely to pass the Bechdel test, we proceed by adding a trope coefficient to the regression, and analysing both goodness of fit and statistical significance. Of course, we first isolate tropes which have misogynistic undertones as supported by relevant literary and cinematic studies.
-
-**Step X** Quantity of actresses
+**Step 3.1** Quantity of actresses
 
 The purpose of this step is to see whether films pass the Bechdel test because they have more actresses or, on the contrary, if the number of actresses is limited but their characters are developed. By "developed," we mean that we know their names, and they engage in conversations on topics other than men. To achieve this, we need to examine the number of actresses and actors per film as well as their ratio.
 
+**Step 3.2 Director gender**
+
+While women have been an integral part of the film industry since the beginning, the opportunity to direct was rarely given to them. A director's job description involves participation in nearly every phase of a project. Because their vision largely impacts the final product, it can be interesting to assess the impact of the presence of female directors. For this, we need to add a new dataset that provides the genders of film directors for each movie, we do not have the Wikipeida ID or IMDb ID for a movie, therefore we will merge this new dataset with the old one based on the title of a movie and the year it was released. We can then explore the proportion of films directed by women that pass the Bechdel test compared to films with male directos. 
+
+**Step 3.3 Age of actresses**
+
+**Step 3.4 Presence of misogynistic tropes**
+
+We take inspiration from Bamman O'Connor and Smith's study on [Learning Latent Personas of Film Characters](https://www.cs.cmu.edu/~dbamman/pubs/pdf/bamman+oconnor+smith.acl13.pdf), in which they aim to predict character tropes using movie summary data. What is of interest to us is the classification into specific tropes, instead of the work of grouping characters into personas. For this, we focus on their manually collected test dataset of induced personas, based on information from [tvtropes.com](https://tvtropes.org/pmwiki/pmwiki.php/Main/Tropes) which classifies 501 characters from different movies into 72 distinct tropes such as "young gun" or "absent minded professor". To answer the question of whether films perpetrating misogynistic tropes can be just as likely to pass the Bechdel test, we proceed by adding a trope coefficient to the regression, and analysing both goodness of fit and statistical significance. Of course, we first isolate tropes which have misogynistic undertones as supported by relevant literary and cinematic studies.
+
+
 ### Part 4 : Prediction and determination of confounding factors
-**Step X** Analysis of the initial bias of the Bechdel dataset
+**Step 4.1** Analysis of the initial bias of the Bechdel dataset
 
 The dataset we refer to is constructed through contributions at [bechdeltest.com](https://bechdeltest.com/). Anyone can freely fill out a movie form indicating whether a movie has passed or failed the test along with specific information on the criteria met or missed. Users can also leave comments on movie pages if they disagree with the result assigned to a movie. We want to determine whether this database is truly a random collection of movies, or if there is some inherent bias of choice which would represent a confounding element for our analyses.
 
 To do so, we determine a dependent variable for the CMU corpus which takes value 1 if the corresponding movie appears in the Bechdel database and 0 if not. Then, we perform a logistic regression of this variable on several factors: country, box office revenue, genre, result of the Bechdel test, release year, female presence, as well as crossfactors. Then, we execute a chi-squared test to determine dependence of the binary dependent variable. We complement with post hoc tests depending on the outcome.
 
 
-**Step X Feature based prediction**
+**Step 4.2 Feature based prediction**
 
 In this final part, we are going to use a supervised classification method based on the film features to predict whether a film passes the Bechdel test or not. We will construct a classification tree.
 
