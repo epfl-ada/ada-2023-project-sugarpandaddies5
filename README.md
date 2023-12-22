@@ -82,12 +82,4 @@ To do so, we determine a dependent variable for the CMU corpus which takes value
 |              |- Dataframe homogenization                                             |  
 
 
-#Question to the TA
-
-**Step X** Age of characters vs. age of actresses
-We found it relevant to compare the ages of actors and actresses with the ages of the fictional characters they portray. For example, in the film 'Eiffel,' 47-year-old Romain Duris portrays Gustave Eiffel, who is 55. Actress Emma Mackey, at 25, portrays Adrienne Bourgès, his youthful love... aged 44. There's a 9-year age difference in reality, more than double between the actors. One could criticize this film for reflecting a form of sexism as the script doesn't justify this casting choice. The issue here is that we couldn't find any dataset with the ages of characters in a film. We considered two options to address this gap: either use the Freebase ID from Wikidata to try to find ages on Wikipedia pages of characters, or look into the film summaries dataset and, with a machine learning method, find the respective ages of the characters.
-
-
-
-
 
