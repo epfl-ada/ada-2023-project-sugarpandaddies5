@@ -64,21 +64,20 @@ To do so, we determine a dependent variable for the CMU corpus which takes value
 * 22-12-23 Milestone 3 submission
 
 ## Organisation within the team
-| Contributor | Task for Milestone 2                        | Task for Milestone 3|
-|-------------|---------------------------------------------|---------------------|
-| **Juliette** | - Data processing, merging Bechdel and CMU  |Impact of genre and Production Company|
-|             | - Initial data analysis and plots            |Box Office revenues
-|             | - Overview of notebook                       |     |
-| **Zoë**     | - Part 2, Step 3.4 Presence of misogynistic tropes   |    Step 4.1: Analysis of the initial bias of the Bechdel dataset     |
-|             | - Overview of README                          |     Website development |
-| **Anabelle** | - Step 3.1 Quantity of actresses             |    Statistical analysis    |
-|             | - Step 3.2 Director gender                    |        |
-|             | - Overview of README                          |        |
-| **Nicola**   | - Step 3.3 Age ratio between actresses and actors                |     Statistical analysis   |
-|             | -  Step 3.4 Presence of misogynistic tropes    |          |
-| **Thibault** |-Machine Learning (Milestone 3)                |                  Feature-based prediction   |    
-|              |                                              |   Website development
-|              | -  Step 4.2 Feature-based prediction   |    |  
+| Contributor | Tasks                     | 
+|-------------|---------------------------------------------|
+| **Juliette** | - Data processing, dataset merging  |
+|             | - Analysis of genres, production company, and revenue         |
+|             | - Card flip development                       |     
+| **Zoë**     | - Website construction and datastory writing, plots  |    
+|             | - Inflation analysis                          |
+|             | - Interpretation of results and dataset analysis                         |
+| **Anabelle** | - Study of quantity of actresses, director and writer gender             |  
+|             | - Datastory writing                  | 
+| **Nicola**   | - Dataframe homogenization               | 
+|             | - Study of misogynistic tropes, propensity score analysis    | 
+| **Thibault** |- Machine learning, feature based prediction          |   
+|              |- Dataframe homogenization                                             |  
 
 
 #Question to the TA
